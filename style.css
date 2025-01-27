@@ -1,0 +1,205 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.header-container {
+  background-color: #1f2937;
+  height: 55vh;
+}
+
+.nav-container {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 90px;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  color: #e5e7eb;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+/* Page info */
+.page-info {
+  display: flex;
+  justify-content: center;
+
+  margin-right: 80px;
+}
+
+.page-info-website {
+  width: 45%;
+  margin-left: 55px;
+}
+
+.page-info-website h1 {
+  width: 50%;
+  margin-bottom: 5px;
+  font-size: 48px;
+  font-weight: 900;
+  color: #f9faf8;
+}
+
+.page-info-website p {
+  width: 50%;
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #c1c3c6;
+}
+
+.page-info-website .sign-up {
+  background-color: #3882f6;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+}
+
+.page-info-image {
+  height: 150px;
+  width: 25%;
+  background-color: rgb(150, 146, 146);
+}
+.placeholder {
+  padding-top: 70px;
+  padding-left: 70px;
+}
+
+/* Card container */
+
+.card-container {
+  height: 45vh;
+}
+
+.random-info {
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.info {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  margin-bottom: 45px;
+}
+
+.card-image {
+  background-color: #f9faf8;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  border: solid 5px #3882f6;
+  width: 150px; /* Set the width of the square */
+  height: 150px; /* Set the height of the square */
+  border-radius: 10px;
+}
+
+.card-box {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+}
+
+.card-info {
+  margin-top: 10px;
+  width: 170px;
+  color: rgb(153, 148, 148);
+  font-size: 18px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Quotes information */
+.quotes-container {
+  height: 45vh;
+  background-color: #e5e7eb;
+}
+
+.quotes-box {
+  display: flex;
+  justify-content: center;
+}
+
+.quotes-box p {
+  margin-top: 150px;
+  font-size: 36px;
+  color: #6580a7;
+  font-style: italic;
+  width: 70%;
+}
+
+.author {
+  text-align: right;
+  margin-right: 20%;
+}
+
+.author p {
+  font-size: 40px;
+  color: #1f2937;
+}
+
+/* Sign up promotion */
+.sign-up-container {
+  height: 30vh;
+  display: flex;
+  justify-content: center;
+}
+
+.sign-up-box {
+  margin: 100px 150px 100px 150px;
+  background-color: #3882f6;
+  height: 100px;
+  width: 50%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.signup-text {
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.signup-two {
+  background-color: transparent;
+  color: #f9faf8;
+  border-radius: 5px;
+  padding: 5px 15px 5px 15px;
+  border: solid 1px white;
+}
+
+/* Footer */
+.footer-container {
+  height: 8vh;
+  background-color: #1f2937;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-box {
+  color: #fff;
+}
